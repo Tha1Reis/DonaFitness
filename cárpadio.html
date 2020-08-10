@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Dona Fitness
+    </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"
+</head>
+
+<body>
+    <form action="pagina/envio.php" method="POST">
+        <table >
+            <tr ><td >
+        <label>Nome: </td><td><input type="text" name="nome"
+            placeholder="Digite seu nome" required="required" </label><br>
+        </td></tr>
+        <tr><td>
+        <label>Email: </td><td><input type="email" name="email" 
+            placeholder="Digite seu email" required="required" </label><br>
+        </td></tr>
+        <tr><td>
+        <label>Cep: </td><td><input type="number" name="cep" </label><br>
+        </td></tr>
+        <tr><td>
+        <label>Data de Nascimento:</td><td> <input type="date" name="nasc" 
+         required="required" </label><br>
+        </td></tr>
+        <tr><td>
+        <label>Senha: </td><td> <input type="password" name="senha"
+            placeholder="Digite sua senha" required="required" </label><br>
+        </td></tr>
+        <tr><td>
+        <label>Confirme a senha: </td><td><input type="password" </label>
+        </td></tr>
+        <tr><td>
+        <input type="submit" name="envia" value="Enviar">
+        <input type="reset" name="reset" value="limpa dados">
+        </td></tr>
+        </table>
+    </form>
+</body>

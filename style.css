@@ -101,6 +101,17 @@ input {
     margin-left: 465px;
     border-radius: 10px  ;
 }
+nav li{
+    list-style: none;
+    display: inline-block;
+    font-family: Lucida Sans;
+    font-size: 100px;
+    font-weight: bold;
+}
+nav a {
+    font-size: 30px;
+    color: black;
+}
 
 
 

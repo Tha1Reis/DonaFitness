@@ -8,34 +8,40 @@
 </head>
 
 <body>
+    <header>
+        <a href="index.html"> Voltar </a>
+    </header>
     <form action="pagina/envio.php" method="POST">
-        <table >
+        <table id="cardapio" >
             <tr ><td >
-        <label>Nome: </td><td><input type="text" name="nome"
-            placeholder="Digite seu nome" required="required" </label><br>
+        <label>Mistura: </td><td><input type="text" name="Mistura"
+            placeholder="Qual mistura?" required="required" </label><br>
         </td></tr>
         <tr><td>
-        <label>Email: </td><td><input type="email" name="email" 
-            placeholder="Digite seu email" required="required" </label><br>
+        <label>Legumes: </td><td><input type="text" name="Legumes" 
+            placeholder="Qual Legume?" required="required" </label><br>
         </td></tr>
         <tr><td>
-        <label>Cep: </td><td><input type="number" name="cep" </label><br>
+            <label>Caboidratos: </td><td><input type="text" name="Caboidratos" 
+                placeholder="Qual ?" required="required" </label><br>
+            </td></tr>
+        <tr><td>
+        <label>Quantidade </td><td><input type="number" name="Quantidade" </label><br>
         </td></tr>
         <tr><td>
-        <label>Data de Nascimento:</td><td> <input type="date" name="nasc" 
+            <label>Data de Produção:</td><td> <input type="date" name="Produção" 
+             required="required" </label><br>
+            </td></tr>
+        <tr><td>
+        <label>Data de Validade:</td><td> <input type="date" name="Validade" 
          required="required" </label><br>
         </td></tr>
         <tr><td>
-        <label>Senha: </td><td> <input type="password" name="senha"
-            placeholder="Digite sua senha" required="required" </label><br>
-        </td></tr>
-        <tr><td>
-        <label>Confirme a senha: </td><td><input type="password" </label>
-        </td></tr>
-        <tr><td>
-        <input type="submit" name="envia" value="Enviar">
-        <input type="reset" name="reset" value="limpa dados">
-        </td></tr>
         </table>
+        <tr><td>
+            <input class="enviar"type="submit" name="envia" value="Enviar">
+            <input class="limpar"type="reset" name="reset" value="Limpar dados">
+            </td></tr>
     </form>
+   
 </body>

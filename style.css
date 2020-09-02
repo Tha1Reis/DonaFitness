@@ -178,8 +178,24 @@ article p{
 #index{
  background-color: white;
 }
+.recuperar {
+    
+      margin-right: 45px;
+      margin-left: -15px;
+      font-family: Sahitya;
+      list-style: none;
+      font-size: 18px;
 
 
-
+color: #000000;
+}
+.volta{
+    margin-top: -45px;
+    color: #000000;
+    border-radius: 10px;
+    font-family: Lucida;
+    font-size: 18px;  
+    width: 100px;
+}
 
 

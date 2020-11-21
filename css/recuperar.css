@@ -1,0 +1,78 @@
+.recuperar{
+    height: 100%;
+    display: flex;
+    flex-direction: row  ;
+}
+.recuperar-form{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-recuperar{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+    background-color: #e99f37;
+    
+
+ }
+ .banner-recuperar img{
+     width: 30%;
+ }
+ .recuperar-form-wrapper{
+     margin-top: 5%;
+     max-width: 500px;
+     display: flex;
+     flex-direction: column;
+     padding: 20px;
+ }
+
+ .recuperar-form-wrapper button {
+     width: 50% ;
+     margin-bottom: 10px;
+     margin-left: 24%;
+     background: #f5c276;
+     border-radius: 5%;
+     color: #e99f37;
+}
+.recuperar-form-wrapper button:hover{
+    columns: #000000;;
+    transform: scale(1.08);
+    transition: .2s;
+    
+}
+.banner-recuperar h2{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: row;
+    margin-top: 1%;
+}
+.volte {
+    display: flex;
+    flex-direction: row;
+
+}
+@media screen and (max-width:1280px) {
+.banner-recuperar{
+    width: 30%;
+    padding: 0 2%;
+    
+}
+.banner-recuperar img{
+    max-width: 100px;
+}
+}
+@media screen and (max-width: 971px){
+    .banner-login{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}

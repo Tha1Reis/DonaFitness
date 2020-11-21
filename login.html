@@ -1,46 +1,41 @@
-
-<html>
-    <!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
-    <title>
-        Login Dona Fitness
-    </title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="plugins/fontawesome/css/all.min.css">
+    <title>Dona Fitness</title>
 </head>
+<body>
+    <div class="login">
+        <div class="login-form">
 
-<body >
-    <div>
+        </div>
+        <div class="banner-login">
+            <img src="imagens/donafit.png" alt="">
+            <h2>Dona Fitness</h2>
+            <div class="login-form-wrapper">
+                <form>
+                    <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                      <label for="Senha">Senha</label>
+                      <input type="password" class="form-control" id="Senha">
+                    </div>
+                    <div class="login-recuperar">
+                      <a href="senha.html">Recuperar senha</a>
+                    </div>
+                    <button type="submit"class="btn">Login</button>
+                  </form>
+               </div>
 
-    <form>
-
-    <table class="boxlogin">
-    <fieldset>
-        <div>
-        <h1>
-            Dona Fitness Marmitas
-       </h1>
+        </div>
     </div>
-    <img src="imagens/donafit.png"  >
-     <div>
-    <label class="login">Login <br><input type="text" name="Login"
-        placeholder="Digite seu Login" required="required" </label><br><br>
-    <label class="senha">Senha<br> <input type="password" name="senha" 
-        placeholder="Digite sua senha" required="required" </label><br><br>
-        <label><input class="Entrar"type="submit" name=""  
-        value="Entrar"> </label><br>
-    </div>
-    
-        <br><a href="senha.html">Esqueceu sua senha?</a><br>
-    </fieldset>
-    </table>
-    </form>
-</div>
-    
-    
+    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="plugins/fontawesome/js/all.min.js"></script>
 </body>
-
-
 </html>

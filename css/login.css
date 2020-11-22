@@ -56,11 +56,24 @@
 .login-recuperar{
     display: flex;
     flex-direction: column;
+    font-size: small;
+ 
    
 }
 .login-recuperar a{
-    margin-bottom: 13px;
-    margin-top: -8px;
+    margin-bottom: 15px;
+    margin-top: -15px;
+    color: white;
+
+}
+
+.login-cadastrar a{
+    margin-top: 100px; 
+    display: flex;
+    flex-direction: center;
+    align-items: center; 
+    margin-left: 30%;  
+    color: white;
 }
 @media screen and (max-width:1280px) {
 .banner-login{

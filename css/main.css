@@ -1,0 +1,22 @@
+main{
+    display: block;
+    height: 100%;
+    background-color: #f8be6c;;
+    width: calc(100% - 200px);
+}
+main .main-content{
+    padding: 30px;
+    width: 100%;
+    height: calc(100% - 90px);
+    overflow: auto;
+}
+.main-content .panel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid white;
+    margin:20px 0;
+
+}

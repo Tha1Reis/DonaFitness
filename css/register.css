@@ -1,18 +1,22 @@
 .register-parent{
     height: 100%;
     padding: 0 2%;
-    background-color: #e99f37;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center;  
+    min-height: 650px;  
+
 }
 .register{
     width: 100%;
+    height: 105%;
+    margin-top: 100px;
     border-radius: 5%;
-    max-width: 700px;
-    padding: 20px;
-    background-color: white;
+    max-width: 450px;
+    padding: 30px 20px;
+    background: #e99f37;
+    
 }
 .register button{
     background-color: #f5c276;
@@ -22,4 +26,33 @@
     padding: 0 2%;
     width: 50%;
     margin-left: 23%;
+    color: #e99f37;
+}
+.register button:hover{
+    columns: #000000;;
+    transform: scale(1.08);
+    transition: .2s;
+}
+.register-title img{
+    width: 18%;
+    height: 18%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 2px;
+
+}
+.register-title{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -13px;
+}
+.register-title h2{
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.register .form-group label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
 }

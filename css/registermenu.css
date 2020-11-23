@@ -1,0 +1,61 @@
+.registermenu-parent{
+    height: 100%;
+    padding: 0 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    min-height: 650px;  
+
+
+}
+.registermenu{
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    max-width: 450px;
+    padding: 30px 20px;
+    background: #e99f37;
+    
+}
+.registermenu button{
+    background-color: #f5c276;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2%;
+    width: 50%;
+    margin-left: 23%;
+    color: #e99f37;
+}
+.registermenu button:hover{
+    columns: #000000;;
+    transform: scale(1.08);
+    transition: .2s;
+}
+.registermenu-title img{
+    width: 18%;
+    height: 18%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 2px;
+
+}
+.registermenu-title{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -13px;
+}
+.registermenu-title h2{
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.registermenu .form-group label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

@@ -20,3 +20,20 @@ main .main-content{
     margin:20px 0;
 
 }
+.main-content .panel img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 20%;
+    margin-left: -10px;
+
+}
+.main-content .panel h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+   
+}

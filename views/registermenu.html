@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../plugins/fontawesome/css/all.min.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="registermenu-parent">
+        <div class="registermenu">
+          <div class="registermenu-title">
+            <a class="volta" href="index.html"> Voltar </a>
+            <img src="../imagens/donafit.png" alt="">
+            <h2>Dona Fitness</h2>
+          </div>
+                    <form action="pagina/envio.php" method="POST">
+                        <div class="form-group">
+                            <label>Mistura:</label><input type="text" name="Mistura"
+                                placeholder="Quais mistura?" required="required" ><br>
+                        </div>
+                        <div>
+                            <label>Legumes: </label> <input type="text" name="Legumes" 
+                                placeholder="Quais Legume?" required="required" > <br>
+                        </div>
+                        <div>
+                                <label>Caboidratos: </label><input type="text" name="Caboidratos" 
+                                    placeholder="Quais ?" required="required" ><br>
+                        </div>
+                        <div>
+                            <label>Quantidade </label><input type="number" name="Quantidade" ><br>
+                        </div>
+                        <div>
+                                <label>Data de Produção:</label> <input type="date" name="Produção" 
+                                 required="required" ><br>
+                        </div>
+                        <div>
+                            <label>Data de Validade:</label> <input type="date" name="Validade" 
+                             required="required" ><br>
+                        </div>
+                                <button type="submit" name="envia" value="Enviar"class="btn">Enviar</button>
+                                <button type="reset" name="reset" value="Limpar dados"class="btn">Limpar dados</button>
+                                </td></tr>
+                                
+                    
+                      </form>
+                   </div>
+            </div>
+    <script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../plugins/fontawesome/js/all.min.js"></script>
+</body>
+</html>
+
+   

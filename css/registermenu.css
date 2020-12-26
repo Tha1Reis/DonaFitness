@@ -56,6 +56,6 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
     display: flex;
-    align-items: center;
+    align-items: column;
     flex-direction: column;
 }

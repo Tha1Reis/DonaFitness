@@ -1,30 +1,81 @@
-<html>
-    <!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
-    <title>Cliente</title>
     <meta charset="UTF-8">
-    
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="bootstrap/4.0.0/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../plugins/fontawesome/css/all.min.css">
+    <title>Inicio</title>
 </head>
-
-<body id="index">
-    <header>
-        <nav>
-            <img id = "logo" src="imagens/donafit.png">
-        <ul><li><a href="index.html">Inicio</a></li>
-                <li><a href="index.html">Pedidos</a></li>
-                <li><a href="cárpadio.html">Cardápio</a></li>
-                <li><a id="Logout"href="login.html">Logout</a></li>
-            </ul></nav>
-        </header>
-    <article>
-        <p>
-            <br>
-        </p>
-    </article>
-    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
-    <script src="plugins/fontawesome/js/all.min.js"></script>  
+<body>
+    <div class="flex-menu">
+        <sidebar>
+            <div class="sidebar-title">
+                <img src="../imagens/donafit.png" alt="">
+                <h2>Dona Fitness</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <i class="fas fa-home"></i>
+                        <a href="index.html"> Dashboard</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-user"></i>
+                        <a href="index.html"> Perfil</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-book-open"></i>
+                        <a href="index.html"> Pedidos</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-user-friends"></i>
+                        <a href="menu.html"> Cardápio</a>
+                    </li>
+                </ul>
+            </div>
+        </sidebar>
+        <main>
+            <header>
+                <a href="0"><i class="fas fa-home"></i> Dashboard</a>
+                <a id="Logout"href="registerclients.html">
+                    <i class="fas fa-clipboard-list"></i> Cadastrar</a>
+            </header>    
+            <div class="main-content">
+                <div class="panel">
+                    <p><img src="../imagens/cardapio.jpg" alt="">
+                        Cardápio Dona Fitness
+                    </p>
+                </div>
+                <div class="panel">
+                    <p><img src="../imagens/patinho,legumes.jpg" alt="">
+                        <h2>Patinho + Legumes</h2>
+                    </p>
+                </div>
+                <div class="panel">
+                    <p><img src="../imagens/escondidinho.jpg" alt="">
+                        <h2>Escondidinho</h2>
+                    </p>
+                </div>
+                <div class="panel">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting 
+                        industry. Lorem Ipsum has been the industry's standard dummy text 
+                        ever since the 1500s, when an unknown printer took a galley of type
+                        and scrambled it to make a type specimen book. It has survived not 
+                        only five centuries, but also the leap into electronic typesetting,
+                         remaining essentially unchanged. It was popularised in the 1960s 
+                         with the release of Letraset sheets containing Lorem Ipsum passages
+                          and more recently with desktop publishing software like Aldus 
+                          PageMaker including versions of Lorem Ipsum.</p>
+                </div>
+            </div>
+        </main>
+    </div>
+               
+    
+    <script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../plugins/fontawesome/js/all.min.js"></script>
 </body>
 </html>
     

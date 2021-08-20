@@ -1,3 +1,3 @@
 # DonaFitness
 Dashbord
-Controle de Pedidos
+Pedidos

@@ -5,19 +5,39 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;  
-    min-height: 650px;  
+    min-height: 620px;  
 
 }
 .register{
     width: 100%;
-    height: 105%;
-    margin-top: 30px;
+    height: 115%;
+    margin-top: 28px;
     border-radius: 5%;
-    max-width: 450px;
-    padding: 30px 20px;
+    max-width: 455px;
+    padding: 30px 40px;
     background: #e99f37;
     
 }
+.volte{
+    cursor: pointer;
+    width: 18%;
+    padding: 0 3%;
+    background: #f5c276;
+    color:#e99f37;
+    border-radius: 8%;
+    position: relative;
+    margin-left: 80%;
+    margin-top:-5px;
+    top: 8px;
+}
+
+.volte:hover{
+    text-decoration: none;
+    color: #000000;;
+    transform: scale(1.08);
+    transition: .2s;
+}
+
 .register button{
     background-color: #f5c276;
     display: flex;
@@ -26,6 +46,7 @@
     padding: 0 2%;
     width: 50%;
     margin-left: 23%;
+    margin-top: 5%;
     color: #e99f37;
 }
 .register button:hover{
